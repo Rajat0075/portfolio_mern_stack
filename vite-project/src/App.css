@@ -1,0 +1,234 @@
+#oot {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.headerBar {
+  list-style: none;
+  display: flex;
+  gap: 30%;
+}
+
+#logo-title {
+  padding: 5vm;
+}
+
+.page_title{
+  text-decoration-line: underline;
+  text-decoration-color: yellow;
+
+}
+
+.searchBar {
+  margin: 7px;
+  padding: 5% 100% 5% 100%;
+  margin-bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+
+  font-family: 'Lucida Sans';
+  background-color: black;
+  color: white;
+  border-style: solid;
+}
+
+@media only screen and (max-width: 667px) {
+  .searchBar {
+    padding: 5% 0% 5% 10%;
+  }
+
+}
+
+nav {
+  text-align: center;
+  
+}
+.container{
+  height: auto;
+  max-width: 100%;
+}
+.navbar {
+  margin-left: 20%;
+  display: flex;
+  gap: 10%;
+  list-style: none;
+  font-weight: bold;
+  text-align: center;
+}
+a.active{
+  color: rgb(248, 9, 9);
+  text-decoration-line: underline;
+}
+
+.navLink{
+  text-decoration: none;
+  color: rgb(203, 221, 38);
+}
+
+.nav-item{
+  padding: 0%;
+}
+.list-skills{
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 10%;
+}
+.form-contact{
+  text-align: center;
+  padding: 10px;
+  input{
+    padding: 1%;
+    width: 45%;
+    border-radius: 10px;
+  }
+  textarea{
+    padding: 2%;
+    width: 43%;
+    border-radius: 10px;
+  }
+  button{
+    padding: 10px;
+    width: 20%;
+    border-radius: 8px;
+  }
+}
+
+.main-about{
+  margin: 5%;
+}
+
+.cover{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+#cover-paragraph{
+  margin: 4%;
+  padding: 8px;
+  border-radius: 7%;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.social-media , a-media{
+  list-style: none;
+  display: flex;
+  gap: 4%;
+  margin-left: 6%;
+  .a-media{
+  text-decoration: none;
+  padding: 15%;
+  font-weight: bolder;
+  border-radius: 10%;
+}
+}
+
+
+
+.btn-download{
+  margin-left: 9%;
+  margin-top: 4%;
+}
+
+#btn-download{
+  padding: 15px;
+  background-color: blue;
+  color: white;
+  border-style: solid;
+  border-radius: 10px;
+}
+.service-card{
+  border-radius: 10px;
+  margin: 7%;
+  padding: 3%;
+}
+.service-card:hover{
+  box-shadow: bisque;
+  scrollbar-darkshadow-color: aqua;
+}
+
+footer{
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width:667px) {
+  .main-cover{
+    margin: 12%;
+  }
+  .nav-item {
+    padding: 2%;
+  }
+  .main-cover{
+    margin-bottom: 20%;
+    color: white;
+  }
+  .navbar {
+    margin-left: 0;
+    display: flex;
+    gap: 10%;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  .social-media{
+    list-style: none;
+    display: flex;
+    gap: 10%;
+    margin-bottom: 10%;
+  }
+  .form-contact{
+    text-align: center;
+    padding: 10px;
+    input{
+      padding: 2%;
+      width: 45%;
+    }
+    textarea{
+      padding: 15px;
+      width: 43%;
+    }
+    button{
+      padding: 10px;
+      width: 40%;
+      
+    }
+  }
+}
+
+@media only screen and (max-width:468px) {
+  .nav-item {
+    padding: 1%;
+  }
+  .navbar {
+    margin-left: 0;
+    display: flex;
+    gap: 4%;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  .social-media{
+    list-style: none;
+    display: flex;
+    gap: 4%;
+  }
+  .cover{
+    margin-top: 10%;
+    margin-left: 5%;
+    overflow: scroll;
+  }
+  #cover-paragraph{
+    margin: 1%;
+    font-style: italic;
+  }
+}
